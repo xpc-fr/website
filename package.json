@@ -1,0 +1,15 @@
+{
+  "name": "xpc-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site vitrine XPC — xpc.fr",
+  "scripts": {
+    "validate": "html-validate \"site/**/*.html\"",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0",
+    "html-validate": "^9.0.0"
+  }
+}
