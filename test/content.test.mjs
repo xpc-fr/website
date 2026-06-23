@@ -62,3 +62,4 @@ function pageChecks(lang, path) {
 }
 
 pageChecks('fr', 'site/index.html');
+pageChecks('en', 'site/en/index.html');
